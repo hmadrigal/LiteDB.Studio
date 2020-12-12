@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteDB.Studio", "LiteDB.Studio\LiteDB.Studio.csproj", "{0002E0FF-C91F-4B8B-B29B-2A477E184408}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteDB.Studio.Core", "LiteDB.Studio.Core\LiteDB.Studio.Core.csproj", "{291973D4-5B76-4F61-8E50-72B45341C822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiteDB.Studio.TerminalApp", "LiteDB.Studio.TerminalApp\LiteDB.Studio.TerminalApp.csproj", "{1EB07572-AE59-463B-8C1E-0AD3983599A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{0002E0FF-C91F-4B8B-B29B-2A477E184408}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0002E0FF-C91F-4B8B-B29B-2A477E184408}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0002E0FF-C91F-4B8B-B29B-2A477E184408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{291973D4-5B76-4F61-8E50-72B45341C822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{291973D4-5B76-4F61-8E50-72B45341C822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{291973D4-5B76-4F61-8E50-72B45341C822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{291973D4-5B76-4F61-8E50-72B45341C822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EB07572-AE59-463B-8C1E-0AD3983599A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB07572-AE59-463B-8C1E-0AD3983599A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB07572-AE59-463B-8C1E-0AD3983599A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB07572-AE59-463B-8C1E-0AD3983599A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
