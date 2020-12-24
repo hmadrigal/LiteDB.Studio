@@ -3,6 +3,7 @@ using System;
 using System.Reactive.Concurrency;
 using LiteDB.Studio.TerminalApp.Views;
 using LiteDB.Studio.ViewModels;
+using LiteDB.Studio.Views;
 using ReactiveUI;
 using Terminal.Gui;
 
@@ -35,7 +36,7 @@ namespace LiteDB.Studio.TerminalApp
             RxApp.MainThreadScheduler = TerminalScheduler.Default;
             RxApp.TaskpoolScheduler = TaskPoolScheduler.Default;
 
-            Application.Run(new LoginView(new LoginViewModel()));
+            Application.Run(new MainWindow(new MainWindowViewModel()));
         }
     }
 }
