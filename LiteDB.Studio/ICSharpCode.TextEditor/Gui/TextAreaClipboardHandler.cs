@@ -6,7 +6,6 @@
 // </file>
 
 using System;
-using System.Drawing;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
@@ -16,7 +15,7 @@ using ICSharpCode.TextEditor.Util;
 
 namespace ICSharpCode.TextEditor
 {
-	public class TextAreaClipboardHandler
+    public class TextAreaClipboardHandler
 	{
 		TextArea textArea;
 		

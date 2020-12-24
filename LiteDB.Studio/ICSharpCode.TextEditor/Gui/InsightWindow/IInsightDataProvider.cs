@@ -5,11 +5,9 @@
 //     <version>$Revision$</version>
 // </file>
 
-using System;
-
 namespace ICSharpCode.TextEditor.Gui.InsightWindow
 {
-	public interface IInsightDataProvider
+    public interface IInsightDataProvider
 	{
 		/// <summary>
 		/// Tells the insight provider to prepare its data.

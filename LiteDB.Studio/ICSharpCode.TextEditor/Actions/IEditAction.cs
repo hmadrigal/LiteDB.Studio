@@ -5,16 +5,15 @@
 //     <version>$Revision$</version>
 // </file>
 
-using System;
 using System.Windows.Forms;
 
 namespace ICSharpCode.TextEditor.Actions
 {
-	/// <summary>
-	/// To define a new key for the textarea, you must write a class which
-	/// implements this interface.
-	/// </summary>
-	public interface IEditAction
+    /// <summary>
+    /// To define a new key for the textarea, you must write a class which
+    /// implements this interface.
+    /// </summary>
+    public interface IEditAction
 	{
 		/// <value>
 		/// An array of keys on which this edit action occurs.

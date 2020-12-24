@@ -5,16 +5,15 @@
 //     <version>$Revision$</version>
 // </file>
 
-using System;
 using System.Drawing;
 using System.Xml;
 
 namespace ICSharpCode.TextEditor.Document
 {
-	/// <summary>
-	/// Extens the highlighting color with a background image.
-	/// </summary>
-	public class HighlightBackground : HighlightColor
+    /// <summary>
+    /// Extens the highlighting color with a background image.
+    /// </summary>
+    public class HighlightBackground : HighlightColor
 	{
 		Image backgroundImage;
 		

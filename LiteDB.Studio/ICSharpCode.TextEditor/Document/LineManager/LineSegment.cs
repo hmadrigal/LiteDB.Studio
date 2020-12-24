@@ -9,11 +9,10 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Diagnostics;
-using System.Text;
 
 namespace ICSharpCode.TextEditor.Document
 {
-	public sealed class LineSegment : ISegment
+    public sealed class LineSegment : ISegment
 	{
 		internal LineSegmentTree.Enumerator treeEntry;
 		int totalLength, delimiterLength;

@@ -5,13 +5,12 @@
 //     <version>$Revision$</version>
 // </file>
 
-using System;
 using System.Drawing;
 using System.Windows.Forms;
 
 namespace ICSharpCode.TextEditor.Util
 {
-	static class TipPainterTools
+    static class TipPainterTools
 	{
 		const int SpacerSize = 4;
 		

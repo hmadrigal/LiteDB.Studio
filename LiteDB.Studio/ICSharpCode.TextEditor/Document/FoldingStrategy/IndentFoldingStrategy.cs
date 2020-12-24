@@ -5,16 +5,15 @@
 //     <version>$Revision$</version>
 // </file>
 
-using System;
 using System.Collections.Generic;
 
 namespace ICSharpCode.TextEditor.Document
 {
-	/// <summary>
-	/// A simple folding strategy which calculates the folding level
-	/// using the indent level of the line.
-	/// </summary>
-	public class IndentFoldingStrategy : IFoldingStrategy
+    /// <summary>
+    /// A simple folding strategy which calculates the folding level
+    /// using the indent level of the line.
+    /// </summary>
+    public class IndentFoldingStrategy : IFoldingStrategy
 	{
 		public List<FoldMarker> GenerateFoldMarkers(IDocument document, string fileName, object parseInformation)
 		{

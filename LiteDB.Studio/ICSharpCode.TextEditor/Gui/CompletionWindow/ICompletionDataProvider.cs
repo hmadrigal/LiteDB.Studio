@@ -5,12 +5,11 @@
 //     <version>$Revision$</version>
 // </file>
 
-using System;
 using System.Windows.Forms;
 
 namespace ICSharpCode.TextEditor.Gui.CompletionWindow
 {
-	public interface ICompletionDataProvider
+    public interface ICompletionDataProvider
 	{
 		ImageList ImageList {
 			get;

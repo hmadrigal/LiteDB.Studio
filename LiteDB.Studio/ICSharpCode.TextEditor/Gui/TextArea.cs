@@ -10,7 +10,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Drawing;
-using System.Drawing.Text;
 using System.Text;
 using System.Windows.Forms;
 
@@ -20,7 +19,7 @@ using ICSharpCode.TextEditor.Gui.CompletionWindow;
 
 namespace ICSharpCode.TextEditor
 {
-	public delegate bool KeyEventHandler(char ch);
+    public delegate bool KeyEventHandler(char ch);
 	public delegate bool DialogKeyProcessor(Keys keyData);
 	
 	/// <summary>

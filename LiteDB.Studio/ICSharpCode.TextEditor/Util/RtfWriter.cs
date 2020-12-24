@@ -5,7 +5,6 @@
 //     <version>$Revision$</version>
 // </file>
 
-using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Text;
@@ -14,7 +13,7 @@ using ICSharpCode.TextEditor.Document;
 
 namespace ICSharpCode.TextEditor.Util
 {
-	public class RtfWriter
+    public class RtfWriter
 	{
 		static Dictionary<string, int> colors;
 		static int           colorNum;

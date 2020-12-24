@@ -7,14 +7,13 @@
 
 using System;
 using System.Collections.Generic;
-using System.Drawing;
 
 namespace ICSharpCode.TextEditor.Document
 {
-	/// <summary>
-	/// Manages the list of markers and provides ways to retrieve markers for specific positions.
-	/// </summary>
-	public sealed class MarkerStrategy
+    /// <summary>
+    /// Manages the list of markers and provides ways to retrieve markers for specific positions.
+    /// </summary>
+    public sealed class MarkerStrategy
 	{
 		List<TextMarker> textMarker = new List<TextMarker>();
 		IDocument document;

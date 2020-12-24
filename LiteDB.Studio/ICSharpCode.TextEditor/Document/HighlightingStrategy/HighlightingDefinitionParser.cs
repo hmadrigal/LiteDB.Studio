@@ -9,13 +9,12 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using System.Windows.Forms;
 using System.Xml;
 using System.Xml.Schema;
 
 namespace ICSharpCode.TextEditor.Document
 {
-	public static class HighlightingDefinitionParser
+    public static class HighlightingDefinitionParser
 	{
 		public static DefaultHighlightingStrategy Parse(SyntaxMode syntaxMode, XmlReader xmlReader)
 		{

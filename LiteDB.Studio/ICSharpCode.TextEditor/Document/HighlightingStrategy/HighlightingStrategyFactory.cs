@@ -5,11 +5,9 @@
 //     <version>$Revision$</version>
 // </file>
 
-using System;
-
 namespace ICSharpCode.TextEditor.Document
 {
-	public class HighlightingStrategyFactory
+    public class HighlightingStrategyFactory
 	{
 		public static IHighlightingStrategy CreateHighlightingStrategy()
 		{

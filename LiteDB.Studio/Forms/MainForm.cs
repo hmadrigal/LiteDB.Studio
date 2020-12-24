@@ -1,15 +1,10 @@
-﻿using ICSharpCode.TextEditor;
-using LiteDB.Engine;
-using LiteDB.Studio.Forms;
+﻿using LiteDB.Studio.Forms;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;

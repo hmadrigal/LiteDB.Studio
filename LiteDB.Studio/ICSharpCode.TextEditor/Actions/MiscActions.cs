@@ -7,14 +7,13 @@
 
 using System;
 using System.Diagnostics;
-using System.Drawing;
 using System.Text;
 
 using ICSharpCode.TextEditor.Document;
 
 namespace ICSharpCode.TextEditor.Actions
 {
-	public class Tab : AbstractEditAction
+    public class Tab : AbstractEditAction
 	{
 		public static string GetIndentationString(IDocument document)
 		{

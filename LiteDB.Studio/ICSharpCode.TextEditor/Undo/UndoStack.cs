@@ -7,14 +7,13 @@
 
 using System;
 using System.Collections.Generic;
-using System.Drawing;
 
 namespace ICSharpCode.TextEditor.Undo
 {
-	/// <summary>
-	/// This class implements an undo stack
-	/// </summary>
-	public class UndoStack
+    /// <summary>
+    /// This class implements an undo stack
+    /// </summary>
+    public class UndoStack
 	{
 		Stack<IUndoableOperation> undostack = new Stack<IUndoableOperation>();
 		Stack<IUndoableOperation> redostack = new Stack<IUndoableOperation>();

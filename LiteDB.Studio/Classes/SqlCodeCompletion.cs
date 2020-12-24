@@ -1,16 +1,12 @@
 ﻿// This code was based on the CSharp Editor Example with Code Completion created by Daniel Grunwald
 using System;
 using System.IO;
-using System.Text;
 using System.Xml;
 using System.Windows.Forms;
-using System.Collections;
 using System.Collections.Generic;
 using ICSharpCode.TextEditor;
 using ICSharpCode.TextEditor.Gui.CompletionWindow;
 using System.Linq;
-using System.Diagnostics;
-using ICSharpCode.TextEditor.Document;
 
 namespace LiteDB.Studio
 {

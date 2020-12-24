@@ -8,12 +8,11 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Windows.Forms;
 using System.Xml;
 
 namespace ICSharpCode.TextEditor.Document
 {
-	public class FileSyntaxModeProvider : ISyntaxModeFileProvider
+    public class FileSyntaxModeProvider : ISyntaxModeFileProvider
 	{
 		string    directory;
 		List<SyntaxMode> syntaxModes = null;

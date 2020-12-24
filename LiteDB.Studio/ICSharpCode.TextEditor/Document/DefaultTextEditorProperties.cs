@@ -5,13 +5,12 @@
 //     <version>$Revision$</version>
 // </file>
 
-using System;
 using System.Drawing;
 using System.Text;
 
 namespace ICSharpCode.TextEditor.Document
 {
-	public enum BracketMatchingStyle {
+    public enum BracketMatchingStyle {
 		Before,
 		After
 	}

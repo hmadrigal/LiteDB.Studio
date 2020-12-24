@@ -5,19 +5,16 @@
 //     <version>$Revision$</version>
 // </file>
 
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Drawing;
-using System.Drawing.Drawing2D;
 
 namespace ICSharpCode.TextEditor
 {
-	/// <summary>
-	/// Contains brushes/pens for the text editor to speed up drawing. Re-Creation of brushes and pens
-	/// seems too costly.
-	/// </summary>
-	public class BrushRegistry
+    /// <summary>
+    /// Contains brushes/pens for the text editor to speed up drawing. Re-Creation of brushes and pens
+    /// seems too costly.
+    /// </summary>
+    public class BrushRegistry
 	{
 		static Dictionary<Color, Brush> brushes = new Dictionary<Color, Brush>();
 		static Dictionary<Color, Pen> pens = new Dictionary<Color, Pen>();

@@ -5,14 +5,12 @@
 //     <version>$Revision$</version>
 // </file>
 
-using System.Drawing;
-
 namespace ICSharpCode.TextEditor.Document
 {
-	/// <summary>
-	/// An interface representing a portion of the current selection.
-	/// </summary>
-	public interface ISelection
+    /// <summary>
+    /// An interface representing a portion of the current selection.
+    /// </summary>
+    public interface ISelection
 	{
 		TextLocation StartPosition {
 			get;

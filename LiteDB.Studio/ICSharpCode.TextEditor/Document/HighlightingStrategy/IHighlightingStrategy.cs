@@ -5,15 +5,14 @@
 //     <version>$Revision$</version>
 // </file>
 
-using System;
 using System.Collections.Generic;
 
 namespace ICSharpCode.TextEditor.Document
 {
-	/// <summary>
-	/// A highlighting strategy for a buffer.
-	/// </summary>
-	public interface IHighlightingStrategy
+    /// <summary>
+    /// A highlighting strategy for a buffer.
+    /// </summary>
+    public interface IHighlightingStrategy
 	{
 		/// <value>
 		/// The name of the highlighting strategy, must be unique

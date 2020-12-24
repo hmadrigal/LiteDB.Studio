@@ -5,11 +5,9 @@
 //     <version>$Revision$</version>
 // </file>
 
-using System;
-
 namespace ICSharpCode.TextEditor.Document
 {
-	public class HighlightInfo
+    public class HighlightInfo
 	{
 		public bool BlockSpanOn = false;
 		public bool Span        = false;

@@ -9,11 +9,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Drawing;
-using System.Windows.Forms;
 
 namespace ICSharpCode.TextEditor.Document
 {
-	public class DefaultHighlightingStrategy : IHighlightingStrategyUsingRuleSets
+    public class DefaultHighlightingStrategy : IHighlightingStrategyUsingRuleSets
 	{
 		string    name;
 		List<HighlightRuleSet> rules = new List<HighlightRuleSet>();

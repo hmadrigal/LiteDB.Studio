@@ -5,16 +5,15 @@
 //     <version>$Revision$</version>
 // </file>
 
-using System;
 using System.Text;
 
 namespace ICSharpCode.TextEditor.Document
 {
-	/// <summary>
-	/// This interface represents a container which holds a text sequence and
-	/// all necessary information about it. It is used as the base for a text editor.
-	/// </summary>
-	public class DocumentFactory
+    /// <summary>
+    /// This interface represents a container which holds a text sequence and
+    /// all necessary information about it. It is used as the base for a text editor.
+    /// </summary>
+    public class DocumentFactory
 	{
 		/// <remarks>
 		/// Creates a new <see cref="IDocument"/> object. Only create

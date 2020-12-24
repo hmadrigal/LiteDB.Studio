@@ -5,11 +5,9 @@
 //     <version>$Revision$</version>
 // </file>
 
-using System;
-
-namespace ICSharpCode.TextEditor.Actions 
+namespace ICSharpCode.TextEditor.Actions
 {
-	public class Cut : AbstractEditAction
+    public class Cut : AbstractEditAction
 	{
 		public override void Execute(TextArea textArea)
 		{

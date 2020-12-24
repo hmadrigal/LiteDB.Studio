@@ -4,15 +4,14 @@
 //     <owner name="Daniel Grunwald"/>
 //     <version>$Revision$</version>
 // </file>
-using System;
 using System.Collections.Generic;
 
 namespace ICSharpCode.TextEditor.Document
 {
-	/// <summary>
-	/// A list of events that are fired after the line manager has finished working.
-	/// </summary>
-	struct DeferredEventList
+    /// <summary>
+    /// A list of events that are fired after the line manager has finished working.
+    /// </summary>
+    struct DeferredEventList
 	{
 		internal List<LineSegment> removedLines;
 		internal List<TextAnchor> textAnchor;

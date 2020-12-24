@@ -1,11 +1,9 @@
 ﻿using ICSharpCode.TextEditor.Document;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Linq;
-using System.Text;
 
-namespace ICSharpCode.TextEditor {
+namespace ICSharpCode.TextEditor
+{
 
     public class HighlightStringConverter : StringConverter {
         public override Boolean GetStandardValuesSupported(ITypeDescriptorContext context) {

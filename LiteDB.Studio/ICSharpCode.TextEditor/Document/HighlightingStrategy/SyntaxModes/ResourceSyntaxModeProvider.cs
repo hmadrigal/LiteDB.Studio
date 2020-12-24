@@ -5,7 +5,6 @@
 //     <version>$Revision$</version>
 // </file>
 
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
@@ -13,7 +12,7 @@ using System.Xml;
 
 namespace ICSharpCode.TextEditor.Document
 {
-	public class ResourceSyntaxModeProvider : ISyntaxModeFileProvider
+    public class ResourceSyntaxModeProvider : ISyntaxModeFileProvider
 	{
 		List<SyntaxMode> syntaxModes = null;
 		

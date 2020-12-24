@@ -8,16 +8,15 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Drawing;
 
 using ICSharpCode.TextEditor.Undo;
 
 namespace ICSharpCode.TextEditor.Document
 {
-	/// <summary>
-	/// Describes the caret marker
-	/// </summary>
-	public enum LineViewerStyle {
+    /// <summary>
+    /// Describes the caret marker
+    /// </summary>
+    public enum LineViewerStyle {
 		/// <summary>
 		/// No line viewer will be displayed
 		/// </summary>

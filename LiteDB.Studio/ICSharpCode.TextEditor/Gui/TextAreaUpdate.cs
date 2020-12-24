@@ -6,14 +6,13 @@
 // </file>
 
 using System;
-using System.Drawing;
 
 namespace ICSharpCode.TextEditor
 {
-	/// <summary>
-	/// This enum describes all implemented request types
-	/// </summary>
-	public enum TextAreaUpdateType {
+    /// <summary>
+    /// This enum describes all implemented request types
+    /// </summary>
+    public enum TextAreaUpdateType {
 		WholeTextArea,
 		SingleLine,
 		SinglePosition,

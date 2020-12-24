@@ -6,12 +6,11 @@
 // </file>
 
 using System;
-using System.Diagnostics;
 using System.Collections.Generic;
 
 namespace ICSharpCode.TextEditor.Util
 {
-	internal struct RedBlackTreeIterator<T> : IEnumerator<T>
+    internal struct RedBlackTreeIterator<T> : IEnumerator<T>
 	{
 		internal RedBlackTreeNode<T> node;
 		

@@ -1,13 +1,10 @@
 ﻿using ICSharpCode.TextEditor.Actions;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
-namespace ICSharpCode.TextEditor {
+namespace ICSharpCode.TextEditor
+{
     public partial class ContextMenu : ContextMenuStrip {
         TextAreaControl parent;
         public ContextMenu(TextAreaControl parent) {
