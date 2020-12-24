@@ -2,6 +2,7 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>LiteDB.Studio</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Models\" />
