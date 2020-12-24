@@ -6,4 +6,8 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LiteDB.Studio.Core\LiteDB.Studio.Core.csproj" />
+  </ItemGroup>
+
 </Project>
