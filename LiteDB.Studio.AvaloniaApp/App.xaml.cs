@@ -1,10 +1,10 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using LiteDB.Studio.AvaloniaApp.ViewModels;
-using LiteDB.Studio.AvaloniaApp.Views;
+using LiteDB.Studio.ViewModels;
+using LiteDB.Studio.Views;
 
-namespace LiteDB.Studio.AvaloniaApp
+namespace LiteDB.Studio
 {
     public class App : Application
     {

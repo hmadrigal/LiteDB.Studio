@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LiteDB.Studio.AvaloniaApp.ViewModels
+namespace LiteDB.Studio.ViewModels
 {
     public class MainWindowViewModel : ViewModelBase
     {

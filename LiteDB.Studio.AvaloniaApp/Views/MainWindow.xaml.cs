@@ -2,7 +2,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 
-namespace LiteDB.Studio.AvaloniaApp.Views
+namespace LiteDB.Studio.Views
 {
     public class MainWindow : Window
     {

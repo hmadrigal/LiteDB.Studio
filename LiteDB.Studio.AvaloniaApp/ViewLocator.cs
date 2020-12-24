@@ -4,9 +4,9 @@
 using System;
 using Avalonia.Controls;
 using Avalonia.Controls.Templates;
-using LiteDB.Studio.AvaloniaApp.ViewModels;
+using LiteDB.Studio.ViewModels;
 
-namespace LiteDB.Studio.AvaloniaApp
+namespace LiteDB.Studio
 {
     public class ViewLocator : IDataTemplate
     {
