@@ -4,10 +4,6 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <RootNamespace>LiteDB.Studio</RootNamespace>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="ViewModels\" />
-  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="ReactiveUI.Fody" Version="13.0.1" />
     <PackageReference Include="ReactiveUI" Version="13.0.1" />

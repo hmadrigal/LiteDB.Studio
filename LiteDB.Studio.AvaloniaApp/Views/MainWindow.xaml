@@ -1,6 +1,6 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:vm="clr-namespace:LiteDB.Studio.ViewModels;assembly=LiteDB.Studio.AvaloniaApp"
+        xmlns:vm="clr-namespace:LiteDB.Studio.ViewModels;assembly=LiteDB.Studio.Core"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
@@ -8,10 +8,21 @@
         Icon="/Assets/avalonia-logo.ico"
         Title="LiteDB.Studio">
 
-    <Design.DataContext>
-        <vm:MainWindowViewModel/>
-    </Design.DataContext>
+  <Design.DataContext>
+    <vm:MainWindowViewModel/>
+  </Design.DataContext>
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="auto"/>
+      <RowDefinition Height="*"/>
+      <RowDefinition Height="auto"/>
+    </Grid.RowDefinitions>
 
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <StackPanel Grid.Row="0" Orientation="Horizontal">
+      <Button Content="Connect" Command="{Binding ShowConnectWindowCommand}"></Button>
+      <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>  
+    </StackPanel>
+    
+  </Grid>
 
 </Window>
